@@ -1,0 +1,1 @@
+@W: MT529 :"f:\proyectos\icezum_alhambra\proyectos\incrementalleds\pingpong\uc_incremental.vhd":21:9:21:10|Found inferred clock incremental|clk which controls 43 sequential elements including UC.ep[0:8]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,22 @@
+
+fsm_encoding {8219211} onehot
+
+fsm_state_encoding {8219211} e0 {000000001}
+
+fsm_state_encoding {8219211} e1 {000000010}
+
+fsm_state_encoding {8219211} e2 {000000100}
+
+fsm_state_encoding {8219211} e3 {000001000}
+
+fsm_state_encoding {8219211} e4 {000010000}
+
+fsm_state_encoding {8219211} e5 {000100000}
+
+fsm_state_encoding {8219211} e6 {001000000}
+
+fsm_state_encoding {8219211} e7 {010000000}
+
+fsm_state_encoding {8219211} e8 {100000000}
+
+fsm_registers {8219211} {ep[0]}  {ep[1]}  {ep[2]}  {ep[3]}  {ep[4]}  {ep[5]}  {ep[6]}  {ep[7]}  {ep[8]} 

@@ -1,0 +1,63 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KTQ144 (Lattice)
+
+---------------------------------------------------------------------------
+########   Utilization report for  Top level view:   incremental   ########
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     43                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block incremental:	43 (32.33 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       52                 100 %                
+CARRYS     23                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block incremental:	75 (56.39 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     11                 100 %                
+=================================================
+Total IO PADS in the block incremental:	11 (8.27 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   UCincremental   ########
+Instance path:   incremental.UCincremental                         
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     9                  20.9 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block incremental.UCincremental:	9 (6.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     10                 19.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block incremental.UCincremental:	10 (7.52 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  9.09 %               
+=================================================
+Total IO PADS in the block incremental.UCincremental:	1 (0.75 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,12 @@
+@P:  Worst Slack : -1.169
+@P:  incremental|clk - Estimated Frequency : 128.4 MHz
+@P:  incremental|clk - Requested Frequency : 151.0 MHz
+@P:  incremental|clk - Estimated Period : 7.790
+@P:  incremental|clk - Requested Period : 6.622
+@P:  incremental|clk - Slack : -1.169
+@P: incremental Part : ice40hx1ktq144
+@P: incremental I/O primitives : 10
+@P: incremental I/O Register bits : 0
+@P: incremental Register bits (Non I/O) : 43 (3%)
+@P: incremental Total Luts : 52 (4%)
+@P:  CPU Time : 0h:00m:00s

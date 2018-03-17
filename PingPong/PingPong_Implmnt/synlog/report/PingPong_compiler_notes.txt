@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"F:\Installs\Iscc\Lattice\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Top entity is set to incremental.
+@N: CD630 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Synthesizing work.incremental.arquitecturaincremental.
+@N: CD630 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\UC_incremental.vhd":4:7:4:19|Synthesizing work.ucincremental.arquitecturaucincremental.
+@N: CD231 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\UC_incremental.vhd":15:13:15:14|Using onehot encoding for type estado. For example, enumeration e0 is mapped to "100000000".
+@N: CL201 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\UC_incremental.vhd":21:9:21:10|Trying to extract state machine for register ep.
+@N|Running in 64-bit mode
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+

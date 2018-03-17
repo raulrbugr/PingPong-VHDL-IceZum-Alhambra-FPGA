@@ -1,0 +1,2 @@
+@W: FX1039 :"f:\proyectos\icezum_alhambra\proyectos\incrementalleds\pingpong\incremental.vhd":76:4:76:5|User-specified initial value defined for instance value_cnt[23:0] is being ignored. 
+@W: MT420 |Found inferred clock incremental|clk with period 6.62ns. Please declare a user-defined clock on object "p:clk"

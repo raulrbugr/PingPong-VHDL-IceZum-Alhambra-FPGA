@@ -1,0 +1,7 @@
+F:\Installs\Iscc\Lattice\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_comp.srs  -osyn  F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_mult.srs  -log  F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synlog\PingPong_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_comp.srs|io:i|time:1521306936|size:3903|exec:0
+file:F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_mult.srs|io:o|time:1521306937|size:2911|exec:0
+file:F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synlog\PingPong_multi_srs_gen.srr|io:o|time:1521306937|size:916|exec:0
+file:F:\Installs\Iscc\Lattice\synpbase\bin\syn_nfilter.exe|io:i|time:1521062538|size:3128320|exec:1
+file:F:\Installs\Iscc\Lattice\synpbase\bin64\syn_nfilter.exe|io:i|time:1521062540|size:3947520|exec:1

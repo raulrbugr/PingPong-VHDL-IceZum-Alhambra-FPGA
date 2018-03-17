@@ -1,0 +1,26 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Mar 17 2018 18:01:54
+
+# Family & Device:    iCE40HX1K
+
+# Package:            TQ144
+
+# ##############################################################################
+
+###IOSet List 10
+set_io clk 21
+set_io leds[3] 98
+set_io leds[7] 104
+set_io leds[0] 95
+set_io leds[2] 97
+set_io leds[4] 99
+set_io leds[6] 102
+set_io leds[1] 96
+set_io leds[5] 101
+set_io reset 49
+

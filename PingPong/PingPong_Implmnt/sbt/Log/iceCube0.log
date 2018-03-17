@@ -1,0 +1,2707 @@
+17:57:05
+"F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "PingPong_syn.prj" -log "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: F:\Installs\Iscc\Lattice\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-107T6R1
+
+# Sat Mar 17 17:58:51 2018
+
+#Implementation: PingPong_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"F:\Installs\Iscc\Lattice\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Top entity is set to incremental.
+VHDL syntax check successful!
+@N: CD630 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Synthesizing work.incremental.arquitecturaincremental.
+@N: CD630 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\UC_incremental.vhd":4:7:4:19|Synthesizing work.ucincremental.arquitecturaucincremental.
+@N: CD231 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\UC_incremental.vhd":15:13:15:14|Using onehot encoding for type estado. For example, enumeration e0 is mapped to "100000000".
+Post processing for work.ucincremental.arquitecturaucincremental
+Post processing for work.incremental.arquitecturaincremental
+@N: CL201 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\UC_incremental.vhd":21:9:21:10|Trying to extract state machine for register ep.
+Extracted state machine for register ep
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 17:58:51 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 17:58:51 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 17:58:51 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 17:58:53 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Mar 17 17:58:53 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong_scck.rpt 
+Printing clock  summary report in "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist incremental
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start               Requested     Requested     Clock        Clock                     Clock
+Clock               Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------
+incremental|clk     196.2 MHz     5.097         inferred     Autoconstr_clkgroup_0     43   
+============================================================================================
+
+@W: MT529 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\uc_incremental.vhd":21:9:21:10|Found inferred clock incremental|clk which controls 43 sequential elements including UC.ep[0:8]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Encoding state machine ep[0:8] (in view: work.UCincremental(arquitecturaucincremental))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 17 17:58:53 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Mar 17 17:58:53 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\incremental.vhd":76:4:76:5|User-specified initial value defined for instance value_cnt[23:0] is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: MO231 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\incremental.vhd":76:4:76:5|Found counter in view:work.incremental(arquitecturaincremental) instance value_cnt[23:0] 
+Encoding state machine ep[0:8] (in view: work.UCincremental(arquitecturaucincremental))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.02ns		  76 /        43
+   2		0h:00m:00s		    -2.02ns		  76 /        43
+
+   3		0h:00m:00s		    -2.02ns		  76 /        43
+
+
+   4		0h:00m:00s		    -2.02ns		  76 /        43
+@N: FX1016 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\incremental.vhd":7:9:7:11|SB_GB_IO inserted on the port clk.
+@N: FX1016 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\incremental.vhd":7:2:7:6|SB_GB_IO inserted on the port reset.
+@N: FX1017 :|SB_GB inserted on the net value_cnte_0_i.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 43 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               43         register10[0]  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 134MB)
+
+Writing Analyst data base F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MT420 |Found inferred clock incremental|clk with period 6.62ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Mar 17 17:58:54 2018
+#
+
+
+Top view:               incremental
+Requested Frequency:    151.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.169
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+incremental|clk     151.0 MHz     128.4 MHz     6.622         7.790         -1.169     inferred     Autoconstr_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+incremental|clk  incremental|clk  |  6.622       -1.169  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: incremental|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                   Arrival           
+Instance          Reference           Type         Pin     Net               Time        Slack 
+                  Clock                                                                        
+-----------------------------------------------------------------------------------------------
+value_cnt[20]     incremental|clk     SB_DFFES     Q       value_cnt[20]     0.540       -1.169
+value_cnt[4]      incremental|clk     SB_DFFER     Q       value_cnt[4]      0.540       -1.148
+value_cnt[16]     incremental|clk     SB_DFFES     Q       value_cnt[16]     0.540       -1.119
+value_cnt[21]     incremental|clk     SB_DFFES     Q       value_cnt[21]     0.540       -1.119
+value_cnt[0]      incremental|clk     SB_DFFER     Q       value_cnt[0]      0.540       -1.099
+value_cnt[5]      incremental|clk     SB_DFFER     Q       value_cnt[5]      0.540       -1.099
+value_cnt[6]      incremental|clk     SB_DFFER     Q       value_cnt[6]      0.540       -1.077
+value_cnt[12]     incremental|clk     SB_DFFES     Q       value_cnt[12]     0.540       -1.077
+value_cnt[17]     incremental|clk     SB_DFFES     Q       value_cnt[17]     0.540       -1.070
+value_cnt[1]      incremental|clk     SB_DFFER     Q       value_cnt[1]      0.540       -1.049
+===============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                      Required           
+Instance          Reference           Type         Pin     Net                  Time         Slack 
+                  Clock                                                                            
+---------------------------------------------------------------------------------------------------
+UC.ep[2]          incremental|clk     SB_DFFR      D       N_51_0               6.517        -1.169
+UC.ep[5]          incremental|clk     SB_DFFR      D       N_47_0               6.517        -1.169
+UC.ep[3]          incremental|clk     SB_DFFR      D       ep_ns_0_i[5]         6.517        -1.119
+UC.ep[6]          incremental|clk     SB_DFFR      D       ep_ns_0_i[2]         6.517        -1.119
+value_cnt[23]     incremental|clk     SB_DFFES     D       value_cnt_lm[23]     6.517        -0.408
+value_cnt[22]     incremental|clk     SB_DFFER     D       value_cnt_lm[22]     6.517        -0.268
+value_cnt[21]     incremental|clk     SB_DFFES     D       value_cnt_lm[21]     6.517        -0.127
+value_cnt[20]     incremental|clk     SB_DFFES     D       value_cnt_lm[20]     6.517        0.013 
+value_cnt[19]     incremental|clk     SB_DFFER     D       value_cnt_lm[19]     6.517        0.153 
+value_cnt[18]     incremental|clk     SB_DFFES     D       value_cnt_lm[18]     6.517        0.293 
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.685
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.169
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[20] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[20]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[20]               Net          -        -       1.599     -           3         
+value_cnt_RNINQPR[20]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNINQPR[20]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_3     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I1       In      -         5.779       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.400     6.178       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.685       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.790 is 1.942(24.9%) logic and 5.848(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.685
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.169
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[20] / Q
+    Ending point:                            UC.ep[5] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[20]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[20]               Net          -        -       1.599     -           3         
+value_cnt_RNINQPR[20]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNINQPR[20]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_3     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[5]                SB_LUT4      I1       In      -         5.779       -         
+UC.ep_RNO[5]                SB_LUT4      O        Out     0.400     6.178       -         
+N_47_0                      Net          -        -       1.507     -           1         
+UC.ep[5]                    SB_DFFR      D        In      -         7.685       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.790 is 1.942(24.9%) logic and 5.848(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.148
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[4] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[4]                SB_DFFER     Q        Out     0.540     0.540       -         
+value_cnt[4]                Net          -        -       1.599     -           3         
+value_cnt_RNIQ34K1[4]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNIQ34K1[4]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_21_8     Net          -        -       1.371     -           1         
+value_cnt_RNIIFHL6[0]       SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIIFHL6[0]       SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_21       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I2       In      -         5.779       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.379     6.157       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.664       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.148
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[4] / Q
+    Ending point:                            UC.ep[5] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[4]                SB_DFFER     Q        Out     0.540     0.540       -         
+value_cnt[4]                Net          -        -       1.599     -           3         
+value_cnt_RNIQ34K1[4]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNIQ34K1[4]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_21_8     Net          -        -       1.371     -           1         
+value_cnt_RNIIFHL6[0]       SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIIFHL6[0]       SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_21       Net          -        -       1.371     -           4         
+UC.ep_RNO[5]                SB_LUT4      I2       In      -         5.779       -         
+UC.ep_RNO[5]                SB_LUT4      O        Out     0.379     6.157       -         
+N_47_0                      Net          -        -       1.507     -           1         
+UC.ep[5]                    SB_DFFR      D        In      -         7.664       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.636
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.119
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[16] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[16]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[16]               Net          -        -       1.599     -           3         
+value_cnt_RNI6AGN1[16]      SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNI6AGN1[16]      SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_4     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I1       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.400     4.359       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I1       In      -         5.729       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.400     6.129       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.636       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.741 is 1.893(24.5%) logic and 5.848(75.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for incremental 
+
+Mapping to part: ice40hx1ktq144
+Cell usage:
+GND             1 use
+SB_CARRY        23 uses
+SB_DFFER        23 uses
+SB_DFFES        11 uses
+SB_DFFR         8 uses
+SB_DFFS         1 use
+SB_GB           1 use
+VCC             1 use
+SB_LUT4         52 uses
+
+I/O ports: 10
+I/O primitives: 10
+SB_GB_IO       2 uses
+SB_IO          8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   43 (3%)
+Total load per clock:
+   incremental|clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 52 (4%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 52 = 52 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 17 17:58:54 2018
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation PingPong_Implmnt its sbt path: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 4 seconds
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\edifparser.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.edf " "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist" "-pTQ144" -c --devicename iCE40HX1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.edf...
+start to read sdc/scf file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.scf
+sdc_reader OK F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.scf
+Stored edif netlist at F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental...
+
+write Timing Constraint to F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: incremental
+
+EDF Parser run-time: 0 (sec)
+edif parser succeed.
+Unrecognizable name incremental
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer" --device-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --package TQ144 --deviceMarketName iCE40HX1K --sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" --effort_level std --out-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc"
+starting placerrunning placerExecuting : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental --outdir F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer --device-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev --package TQ144 --deviceMarketName iCE40HX1K --sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib --effort_level std --out-sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev
+Package              - TQ144
+Design database      - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental
+SDC file             - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer
+Timing library       - F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental/BFPGA_DESIGN_ep
+I2065: Reading device file : F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	52
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	8
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	2
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	22
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	24
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	77
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	43
+        LUT, DFF and CARRY	:	0
+    Combinational LogicCells
+        Only LUT         	:	12
+        CARRY Only       	:	1
+        LUT with CARRY   	:	22
+    LogicCells                  :	78/1280
+    PLBs                        :	11/160
+    BRAMs                       :	0/16
+    IOs and GBIOs               :	10/96
+    PLLs                        :	0/1
+
+
+I2088: Phase 3, elapsed time : 0.2 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.1 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 7.9 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	77
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	8
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	78/1280
+    PLBs                        :	16/160
+    BRAMs                       :	0/16
+    IOs and GBIOs               :	10/96
+    PLLs                        :	0/1
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 1
+Clock: incremental|clk | Frequency: 158.28 MHz | Target: 151.06 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 8.6 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\packer.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer" --DRC_only  --translator "F:\Installs\Iscc\Lattice\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc" --dst_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --devicename iCE40HX1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:52:47
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 198
+used logic cells: 78
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 1 (sec)
+packer succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\packer.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer" --translator "F:\Installs\Iscc\Lattice\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc" --dst_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --devicename iCE40HX1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:52:47
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 198
+used logic cells: 78
+Translating sdc file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc...
+Translated sdc file is F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc
+Packer succeeded
+
+Packer run-time: 1 (sec)
+packer succeed.
+
+
+"F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbrouter.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\netlist\oadb-incremental" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --outdir "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\router" --sdf_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbrouter.exe F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\netlist\oadb-incremental F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc --outdir F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\router --sdf_file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:02:50
+
+I1203: Reading Design incremental
+Read design time: 0
+I1202: Reading Architecture of device iCE40HX1K
+Read device time: 1
+I1209: Started routing
+I1223: Total Nets : 103 
+I1212: Iteration  1 :    41 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 1
+I1206: Completed routing
+I1204: Writing Design incremental
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 2 seconds
+router succeed.
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\netlister.exe" --verilog "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.v" --vhdl "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/sbt/outputs/simulation_netlist\incremental_sbt.vhd" --lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --view rt --device "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --splitio  --in-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --out-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:30:26
+
+Generating Verilog & VHDL netlist files ...
+Writing F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.v
+Writing F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/sbt/outputs/simulation_netlist\incremental_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 1 (sec)
+netlist succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --lib-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" --sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc" --sdf-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf" --report-file "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\timer\incremental_timing.rpt" --device-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --timing-summary
+starting timerrunning timerExecuting : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental --lib-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib --sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc --sdf-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf --report-file F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\timer\incremental_timing.rpt --device-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:01:05
+
+Timer run-time: 1 seconds
+timer succeed.
+timer succeeded.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\bitmap.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --design "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --device_name iCE40HX1K --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:29:39
+
+Bit Stream File Size: 257720 (251K 696 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 0 (sec)
+bitmap succeed.
+"F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "PingPong_syn.prj" -log "PingPong_Implmnt/PingPong.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of PingPong_Implmnt/PingPong.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: F:\Installs\Iscc\Lattice\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-107T6R1
+
+# Sat Mar 17 18:02:40 2018
+
+#Implementation: PingPong_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"F:\Installs\Iscc\Lattice\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Top entity is set to incremental.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Synthesizing work.incremental.arquitecturaincremental.
+@N: CD630 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\UC_incremental.vhd":4:7:4:19|Synthesizing work.ucincremental.arquitecturaucincremental.
+@N: CD231 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\UC_incremental.vhd":15:13:15:14|Using onehot encoding for type estado. For example, enumeration e0 is mapped to "100000000".
+Post processing for work.ucincremental.arquitecturaucincremental
+Post processing for work.incremental.arquitecturaincremental
+@N: CL201 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\UC_incremental.vhd":21:9:21:10|Trying to extract state machine for register ep.
+Extracted state machine for register ep
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 18:02:40 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 18:02:40 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 18:02:40 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_comp.srs changed - recompiling
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 18:02:42 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Mar 17 18:02:42 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong_scck.rpt 
+Printing clock  summary report in "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist incremental
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start               Requested     Requested     Clock        Clock                     Clock
+Clock               Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------
+incremental|clk     196.2 MHz     5.097         inferred     Autoconstr_clkgroup_0     43   
+============================================================================================
+
+@W: MT529 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\uc_incremental.vhd":21:9:21:10|Found inferred clock incremental|clk which controls 43 sequential elements including UC.ep[0:8]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Encoding state machine ep[0:8] (in view: work.UCincremental(arquitecturaucincremental))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 17 18:02:42 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Mar 17 18:02:42 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\incremental.vhd":76:4:76:5|User-specified initial value defined for instance value_cnt[23:0] is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: MO231 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\incremental.vhd":76:4:76:5|Found counter in view:work.incremental(arquitecturaincremental) instance value_cnt[23:0] 
+Encoding state machine ep[0:8] (in view: work.UCincremental(arquitecturaucincremental))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.02ns		  76 /        43
+   2		0h:00m:00s		    -2.02ns		  76 /        43
+
+   3		0h:00m:00s		    -2.02ns		  76 /        43
+
+
+   4		0h:00m:00s		    -2.02ns		  76 /        43
+@N: FX1016 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\incremental.vhd":7:9:7:11|SB_GB_IO inserted on the port clk.
+@N: FX1016 :"f:\proyectos\icezum_alhambra\proyectos\nueva carpeta\incremental.vhd":7:2:7:6|SB_GB_IO inserted on the port reset.
+@N: FX1017 :|SB_GB inserted on the net value_cnte_0_i.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 43 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               43         register10[0]  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 134MB)
+
+Writing Analyst data base F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MT420 |Found inferred clock incremental|clk with period 6.62ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Mar 17 18:02:43 2018
+#
+
+
+Top view:               incremental
+Requested Frequency:    151.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.169
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+incremental|clk     151.0 MHz     128.4 MHz     6.622         7.790         -1.169     inferred     Autoconstr_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+incremental|clk  incremental|clk  |  6.622       -1.169  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: incremental|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                   Arrival           
+Instance          Reference           Type         Pin     Net               Time        Slack 
+                  Clock                                                                        
+-----------------------------------------------------------------------------------------------
+value_cnt[20]     incremental|clk     SB_DFFES     Q       value_cnt[20]     0.540       -1.169
+value_cnt[4]      incremental|clk     SB_DFFER     Q       value_cnt[4]      0.540       -1.148
+value_cnt[16]     incremental|clk     SB_DFFES     Q       value_cnt[16]     0.540       -1.119
+value_cnt[21]     incremental|clk     SB_DFFES     Q       value_cnt[21]     0.540       -1.119
+value_cnt[0]      incremental|clk     SB_DFFER     Q       value_cnt[0]      0.540       -1.099
+value_cnt[5]      incremental|clk     SB_DFFER     Q       value_cnt[5]      0.540       -1.099
+value_cnt[6]      incremental|clk     SB_DFFER     Q       value_cnt[6]      0.540       -1.077
+value_cnt[12]     incremental|clk     SB_DFFES     Q       value_cnt[12]     0.540       -1.077
+value_cnt[17]     incremental|clk     SB_DFFES     Q       value_cnt[17]     0.540       -1.070
+value_cnt[1]      incremental|clk     SB_DFFER     Q       value_cnt[1]      0.540       -1.049
+===============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                      Required           
+Instance          Reference           Type         Pin     Net                  Time         Slack 
+                  Clock                                                                            
+---------------------------------------------------------------------------------------------------
+UC.ep[2]          incremental|clk     SB_DFFR      D       N_51_0               6.517        -1.169
+UC.ep[5]          incremental|clk     SB_DFFR      D       N_47_0               6.517        -1.169
+UC.ep[3]          incremental|clk     SB_DFFR      D       ep_ns_0_i[5]         6.517        -1.119
+UC.ep[6]          incremental|clk     SB_DFFR      D       ep_ns_0_i[2]         6.517        -1.119
+value_cnt[23]     incremental|clk     SB_DFFES     D       value_cnt_lm[23]     6.517        -0.408
+value_cnt[22]     incremental|clk     SB_DFFER     D       value_cnt_lm[22]     6.517        -0.268
+value_cnt[21]     incremental|clk     SB_DFFES     D       value_cnt_lm[21]     6.517        -0.127
+value_cnt[20]     incremental|clk     SB_DFFES     D       value_cnt_lm[20]     6.517        0.013 
+value_cnt[19]     incremental|clk     SB_DFFER     D       value_cnt_lm[19]     6.517        0.153 
+value_cnt[18]     incremental|clk     SB_DFFES     D       value_cnt_lm[18]     6.517        0.293 
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.685
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.169
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[20] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[20]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[20]               Net          -        -       1.599     -           3         
+value_cnt_RNINQPR[20]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNINQPR[20]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_3     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I1       In      -         5.779       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.400     6.178       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.685       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.790 is 1.942(24.9%) logic and 5.848(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.685
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.169
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[20] / Q
+    Ending point:                            UC.ep[5] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[20]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[20]               Net          -        -       1.599     -           3         
+value_cnt_RNINQPR[20]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNINQPR[20]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_3     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[5]                SB_LUT4      I1       In      -         5.779       -         
+UC.ep_RNO[5]                SB_LUT4      O        Out     0.400     6.178       -         
+N_47_0                      Net          -        -       1.507     -           1         
+UC.ep[5]                    SB_DFFR      D        In      -         7.685       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.790 is 1.942(24.9%) logic and 5.848(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.148
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[4] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[4]                SB_DFFER     Q        Out     0.540     0.540       -         
+value_cnt[4]                Net          -        -       1.599     -           3         
+value_cnt_RNIQ34K1[4]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNIQ34K1[4]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_21_8     Net          -        -       1.371     -           1         
+value_cnt_RNIIFHL6[0]       SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIIFHL6[0]       SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_21       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I2       In      -         5.779       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.379     6.157       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.664       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.148
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[4] / Q
+    Ending point:                            UC.ep[5] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[4]                SB_DFFER     Q        Out     0.540     0.540       -         
+value_cnt[4]                Net          -        -       1.599     -           3         
+value_cnt_RNIQ34K1[4]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNIQ34K1[4]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_21_8     Net          -        -       1.371     -           1         
+value_cnt_RNIIFHL6[0]       SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIIFHL6[0]       SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_21       Net          -        -       1.371     -           4         
+UC.ep_RNO[5]                SB_LUT4      I2       In      -         5.779       -         
+UC.ep_RNO[5]                SB_LUT4      O        Out     0.379     6.157       -         
+N_47_0                      Net          -        -       1.507     -           1         
+UC.ep[5]                    SB_DFFR      D        In      -         7.664       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.636
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.119
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[16] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[16]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[16]               Net          -        -       1.599     -           3         
+value_cnt_RNI6AGN1[16]      SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNI6AGN1[16]      SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_4     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I1       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.400     4.359       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I1       In      -         5.729       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.400     6.129       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.636       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.741 is 1.893(24.5%) logic and 5.848(75.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for incremental 
+
+Mapping to part: ice40hx1ktq144
+Cell usage:
+GND             1 use
+SB_CARRY        23 uses
+SB_DFFER        23 uses
+SB_DFFES        11 uses
+SB_DFFR         8 uses
+SB_DFFS         1 use
+SB_GB           1 use
+VCC             1 use
+SB_LUT4         52 uses
+
+I/O ports: 10
+I/O primitives: 10
+SB_GB_IO       2 uses
+SB_IO          8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   43 (3%)
+Total load per clock:
+   incremental|clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 52 (4%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 52 = 52 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 17 18:02:43 2018
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation PingPong_Implmnt its sbt path: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 5 seconds
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\edifparser.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.edf " "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist" "-pTQ144" "-yF:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\constraint\incremental_pcf_sbt.pcf " -c --devicename iCE40HX1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.edf...
+Parsing constraint file: F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\constraint\incremental_pcf_sbt.pcf ...
+start to read sdc/scf file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.scf
+sdc_reader OK F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.scf
+Stored edif netlist at F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental...
+
+write Timing Constraint to F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: incremental
+
+EDF Parser run-time: 0 (sec)
+edif parser succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer" --device-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --package TQ144 --deviceMarketName iCE40HX1K --sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" --effort_level std --out-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc"
+starting placerrunning placerExecuting : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental --outdir F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer --device-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev --package TQ144 --deviceMarketName iCE40HX1K --sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib --effort_level std --out-sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev
+Package              - TQ144
+Design database      - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental
+SDC file             - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer
+Timing library       - F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental/BFPGA_DESIGN_ep
+I2065: Reading device file : F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	52
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	8
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	2
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	22
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	24
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	77
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	43
+        LUT, DFF and CARRY	:	0
+    Combinational LogicCells
+        Only LUT         	:	12
+        CARRY Only       	:	1
+        LUT with CARRY   	:	22
+    LogicCells                  :	78/1280
+    PLBs                        :	11/160
+    BRAMs                       :	0/16
+    IOs and GBIOs               :	10/96
+    PLLs                        :	0/1
+
+
+I2088: Phase 3, elapsed time : 0.3 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.1 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 8.1 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	77
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	8
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	78/1280
+    PLBs                        :	16/160
+    BRAMs                       :	0/16
+    IOs and GBIOs               :	10/96
+    PLLs                        :	0/1
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 1
+Clock: incremental|clk | Frequency: 158.28 MHz | Target: 151.06 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 8.9 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\packer.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer" --DRC_only  --translator "F:\Installs\Iscc\Lattice\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc" --dst_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --devicename iCE40HX1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:52:47
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 198
+used logic cells: 78
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 0 (sec)
+packer succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\packer.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer" --translator "F:\Installs\Iscc\Lattice\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc" --dst_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --devicename iCE40HX1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:52:47
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 198
+used logic cells: 78
+Translating sdc file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc...
+Translated sdc file is F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc
+Packer succeeded
+
+Packer run-time: 0 (sec)
+packer succeed.
+
+
+"F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbrouter.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\netlist\oadb-incremental" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --outdir "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\router" --sdf_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbrouter.exe F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\netlist\oadb-incremental F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc --outdir F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\router --sdf_file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:02:50
+
+I1203: Reading Design incremental
+Read design time: 0
+I1202: Reading Architecture of device iCE40HX1K
+Read device time: 2
+I1209: Started routing
+I1223: Total Nets : 103 
+I1212: Iteration  1 :    41 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 0
+I1206: Completed routing
+I1204: Writing Design incremental
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 2 seconds
+router succeed.
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\netlister.exe" --verilog "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.v" --vhdl "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/sbt/outputs/simulation_netlist\incremental_sbt.vhd" --lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --view rt --device "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --splitio  --in-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --out-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:30:26
+
+Generating Verilog & VHDL netlist files ...
+Writing F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.v
+Writing F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/sbt/outputs/simulation_netlist\incremental_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 1 (sec)
+netlist succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --lib-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" --sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc" --sdf-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf" --report-file "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\timer\incremental_timing.rpt" --device-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --timing-summary
+starting timerrunning timerExecuting : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental --lib-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib --sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc --sdf-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf --report-file F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\timer\incremental_timing.rpt --device-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:01:05
+
+Timer run-time: 1 seconds
+timer succeed.
+timer succeeded.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\bitmap.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --design "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --device_name iCE40HX1K --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:29:39
+
+Bit Stream File Size: 257720 (251K 696 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 0 (sec)
+bitmap succeed.
+"F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "PingPong_syn.prj" -log "PingPong_Implmnt/PingPong.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of PingPong_Implmnt/PingPong.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: F:\Installs\Iscc\Lattice\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-107T6R1
+
+# Sat Mar 17 18:15:36 2018
+
+#Implementation: PingPong_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"F:\Installs\Iscc\Lattice\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Top entity is set to incremental.
+File F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\UC_incremental.vhd changed - recompiling
+File F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd changed - recompiling
+VHDL syntax check successful!
+File F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\UC_incremental.vhd changed - recompiling
+File F:\Proyectos\IceZum_Alhambra\Proyectos\Nueva carpeta\incremental.vhd changed - recompiling
+@N: CD630 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Synthesizing work.incremental.arquitecturaincremental.
+@N: CD630 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\UC_incremental.vhd":4:7:4:19|Synthesizing work.ucincremental.arquitecturaucincremental.
+@N: CD231 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\UC_incremental.vhd":15:13:15:14|Using onehot encoding for type estado. For example, enumeration e0 is mapped to "100000000".
+Post processing for work.ucincremental.arquitecturaucincremental
+Post processing for work.incremental.arquitecturaincremental
+@N: CL201 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\UC_incremental.vhd":21:9:21:10|Trying to extract state machine for register ep.
+Extracted state machine for register ep
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 18:15:36 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 18:15:36 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 18:15:36 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_comp.srs changed - recompiling
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+@N: NF107 :"F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd":5:7:5:17|Selected library: work cell: incremental view arquitecturaincremental as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 17 18:15:37 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Mar 17 18:15:37 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong_scck.rpt 
+Printing clock  summary report in "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist incremental
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start               Requested     Requested     Clock        Clock                     Clock
+Clock               Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------
+incremental|clk     196.2 MHz     5.097         inferred     Autoconstr_clkgroup_0     43   
+============================================================================================
+
+@W: MT529 :"f:\proyectos\icezum_alhambra\proyectos\incrementalleds\pingpong\uc_incremental.vhd":21:9:21:10|Found inferred clock incremental|clk which controls 43 sequential elements including UC.ep[0:8]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Encoding state machine ep[0:8] (in view: work.UCincremental(arquitecturaucincremental))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 17 18:15:37 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Mar 17 18:15:38 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"f:\proyectos\icezum_alhambra\proyectos\incrementalleds\pingpong\incremental.vhd":76:4:76:5|User-specified initial value defined for instance value_cnt[23:0] is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: MO231 :"f:\proyectos\icezum_alhambra\proyectos\incrementalleds\pingpong\incremental.vhd":76:4:76:5|Found counter in view:work.incremental(arquitecturaincremental) instance value_cnt[23:0] 
+Encoding state machine ep[0:8] (in view: work.UCincremental(arquitecturaucincremental))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.02ns		  76 /        43
+   2		0h:00m:00s		    -2.02ns		  76 /        43
+
+   3		0h:00m:00s		    -2.02ns		  76 /        43
+
+
+   4		0h:00m:00s		    -2.02ns		  76 /        43
+@N: FX1016 :"f:\proyectos\icezum_alhambra\proyectos\incrementalleds\pingpong\incremental.vhd":7:9:7:11|SB_GB_IO inserted on the port clk.
+@N: FX1016 :"f:\proyectos\icezum_alhambra\proyectos\incrementalleds\pingpong\incremental.vhd":7:2:7:6|SB_GB_IO inserted on the port reset.
+@N: FX1017 :|SB_GB inserted on the net value_cnte_0_i.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 43 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               43         register10[0]  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 134MB)
+
+Writing Analyst data base F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\PingPong.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MT420 |Found inferred clock incremental|clk with period 6.62ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Mar 17 18:15:39 2018
+#
+
+
+Top view:               incremental
+Requested Frequency:    151.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.169
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+incremental|clk     151.0 MHz     128.4 MHz     6.622         7.790         -1.169     inferred     Autoconstr_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+incremental|clk  incremental|clk  |  6.622       -1.169  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: incremental|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                   Arrival           
+Instance          Reference           Type         Pin     Net               Time        Slack 
+                  Clock                                                                        
+-----------------------------------------------------------------------------------------------
+value_cnt[20]     incremental|clk     SB_DFFES     Q       value_cnt[20]     0.540       -1.169
+value_cnt[4]      incremental|clk     SB_DFFER     Q       value_cnt[4]      0.540       -1.148
+value_cnt[16]     incremental|clk     SB_DFFES     Q       value_cnt[16]     0.540       -1.119
+value_cnt[21]     incremental|clk     SB_DFFES     Q       value_cnt[21]     0.540       -1.119
+value_cnt[0]      incremental|clk     SB_DFFER     Q       value_cnt[0]      0.540       -1.099
+value_cnt[5]      incremental|clk     SB_DFFER     Q       value_cnt[5]      0.540       -1.099
+value_cnt[6]      incremental|clk     SB_DFFER     Q       value_cnt[6]      0.540       -1.077
+value_cnt[12]     incremental|clk     SB_DFFES     Q       value_cnt[12]     0.540       -1.077
+value_cnt[17]     incremental|clk     SB_DFFES     Q       value_cnt[17]     0.540       -1.070
+value_cnt[1]      incremental|clk     SB_DFFER     Q       value_cnt[1]      0.540       -1.049
+===============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                      Required           
+Instance          Reference           Type         Pin     Net                  Time         Slack 
+                  Clock                                                                            
+---------------------------------------------------------------------------------------------------
+UC.ep[2]          incremental|clk     SB_DFFR      D       N_51_0               6.517        -1.169
+UC.ep[5]          incremental|clk     SB_DFFR      D       N_47_0               6.517        -1.169
+UC.ep[3]          incremental|clk     SB_DFFR      D       ep_ns_0_i[5]         6.517        -1.119
+UC.ep[6]          incremental|clk     SB_DFFR      D       ep_ns_0_i[2]         6.517        -1.119
+value_cnt[23]     incremental|clk     SB_DFFES     D       value_cnt_lm[23]     6.517        -0.408
+value_cnt[22]     incremental|clk     SB_DFFER     D       value_cnt_lm[22]     6.517        -0.268
+value_cnt[21]     incremental|clk     SB_DFFES     D       value_cnt_lm[21]     6.517        -0.127
+value_cnt[20]     incremental|clk     SB_DFFES     D       value_cnt_lm[20]     6.517        0.013 
+value_cnt[19]     incremental|clk     SB_DFFER     D       value_cnt_lm[19]     6.517        0.153 
+value_cnt[18]     incremental|clk     SB_DFFES     D       value_cnt_lm[18]     6.517        0.293 
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.685
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.169
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[20] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[20]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[20]               Net          -        -       1.599     -           3         
+value_cnt_RNINQPR[20]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNINQPR[20]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_3     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I1       In      -         5.779       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.400     6.178       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.685       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.790 is 1.942(24.9%) logic and 5.848(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.685
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.169
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[20] / Q
+    Ending point:                            UC.ep[5] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[20]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[20]               Net          -        -       1.599     -           3         
+value_cnt_RNINQPR[20]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNINQPR[20]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_3     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[5]                SB_LUT4      I1       In      -         5.779       -         
+UC.ep_RNO[5]                SB_LUT4      O        Out     0.400     6.178       -         
+N_47_0                      Net          -        -       1.507     -           1         
+UC.ep[5]                    SB_DFFR      D        In      -         7.685       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.790 is 1.942(24.9%) logic and 5.848(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.148
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[4] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[4]                SB_DFFER     Q        Out     0.540     0.540       -         
+value_cnt[4]                Net          -        -       1.599     -           3         
+value_cnt_RNIQ34K1[4]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNIQ34K1[4]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_21_8     Net          -        -       1.371     -           1         
+value_cnt_RNIIFHL6[0]       SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIIFHL6[0]       SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_21       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I2       In      -         5.779       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.379     6.157       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.664       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.148
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[4] / Q
+    Ending point:                            UC.ep[5] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[4]                SB_DFFER     Q        Out     0.540     0.540       -         
+value_cnt[4]                Net          -        -       1.599     -           3         
+value_cnt_RNIQ34K1[4]       SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNIQ34K1[4]       SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_21_8     Net          -        -       1.371     -           1         
+value_cnt_RNIIFHL6[0]       SB_LUT4      I0       In      -         3.959       -         
+value_cnt_RNIIFHL6[0]       SB_LUT4      O        Out     0.449     4.408       -         
+op_eq\.un4_fin_cnt_21       Net          -        -       1.371     -           4         
+UC.ep_RNO[5]                SB_LUT4      I2       In      -         5.779       -         
+UC.ep_RNO[5]                SB_LUT4      O        Out     0.379     6.157       -         
+N_47_0                      Net          -        -       1.507     -           1         
+UC.ep[5]                    SB_DFFR      D        In      -         7.664       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.622
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.517
+
+    - Propagation time:                      7.636
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.119
+
+    Number of logic level(s):                3
+    Starting point:                          value_cnt[16] / Q
+    Ending point:                            UC.ep[2] / D
+    The start point is clocked by            incremental|clk [rising] on pin C
+    The end   point is clocked by            incremental|clk [rising] on pin C
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+value_cnt[16]               SB_DFFES     Q        Out     0.540     0.540       -         
+value_cnt[16]               Net          -        -       1.599     -           3         
+value_cnt_RNI6AGN1[16]      SB_LUT4      I0       In      -         2.139       -         
+value_cnt_RNI6AGN1[16]      SB_LUT4      O        Out     0.449     2.588       -         
+op_eq\.un4_fin_cnt_20_4     Net          -        -       1.371     -           1         
+value_cnt_RNIO34F3[23]      SB_LUT4      I1       In      -         3.959       -         
+value_cnt_RNIO34F3[23]      SB_LUT4      O        Out     0.400     4.359       -         
+op_eq\.un4_fin_cnt_20       Net          -        -       1.371     -           4         
+UC.ep_RNO[2]                SB_LUT4      I1       In      -         5.729       -         
+UC.ep_RNO[2]                SB_LUT4      O        Out     0.400     6.129       -         
+N_51_0                      Net          -        -       1.507     -           1         
+UC.ep[2]                    SB_DFFR      D        In      -         7.636       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 7.741 is 1.893(24.5%) logic and 5.848(75.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for incremental 
+
+Mapping to part: ice40hx1ktq144
+Cell usage:
+GND             1 use
+SB_CARRY        23 uses
+SB_DFFER        23 uses
+SB_DFFES        11 uses
+SB_DFFR         8 uses
+SB_DFFS         1 use
+SB_GB           1 use
+VCC             1 use
+SB_LUT4         52 uses
+
+I/O ports: 10
+I/O primitives: 10
+SB_GB_IO       2 uses
+SB_IO          8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   43 (3%)
+Total load per clock:
+   incremental|clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 52 (4%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 52 = 52 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 17 18:15:39 2018
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation PingPong_Implmnt its sbt path: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt
+PingPong_Implmnt: newer file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.edf detected. Need to run "Import P&R Input Files"
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 5 seconds
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\edifparser.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.edf " "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist" "-pTQ144" "-yF:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\constraint\incremental_pcf_sbt.pcf " -c --devicename iCE40HX1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.edf...
+Parsing constraint file: F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\constraint\incremental_pcf_sbt.pcf ...
+start to read sdc/scf file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.scf
+sdc_reader OK F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/PingPong.scf
+Stored edif netlist at F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental...
+
+write Timing Constraint to F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: incremental
+
+EDF Parser run-time: 1 (sec)
+edif parser succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer" --device-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --package TQ144 --deviceMarketName iCE40HX1K --sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" --effort_level std --out-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc"
+starting placerrunning placerExecuting : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental --outdir F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer --device-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev --package TQ144 --deviceMarketName iCE40HX1K --sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib --effort_level std --out-sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:12:23
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev
+Package              - TQ144
+Design database      - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental
+SDC file             - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer
+Timing library       - F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental/BFPGA_DESIGN_ep
+I2065: Reading device file : F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	52
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	8
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	2
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	22
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	24
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	77
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	43
+        LUT, DFF and CARRY	:	0
+    Combinational LogicCells
+        Only LUT         	:	12
+        CARRY Only       	:	1
+        LUT with CARRY   	:	22
+    LogicCells                  :	78/1280
+    PLBs                        :	11/160
+    BRAMs                       :	0/16
+    IOs and GBIOs               :	10/96
+    PLLs                        :	0/1
+
+
+I2088: Phase 3, elapsed time : 0.2 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.1 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 7.9 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	77
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	23
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	8
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	78/1280
+    PLBs                        :	16/160
+    BRAMs                       :	0/16
+    IOs and GBIOs               :	10/96
+    PLLs                        :	0/1
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 1
+Clock: incremental|clk | Frequency: 158.28 MHz | Target: 151.06 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 8.6 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\packer.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer" --DRC_only  --translator "F:\Installs\Iscc\Lattice\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc" --dst_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --devicename iCE40HX1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:52:47
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 198
+used logic cells: 78
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 1 (sec)
+packer succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\packer.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer" --translator "F:\Installs\Iscc\Lattice\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc" --dst_sdc_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --devicename iCE40HX1K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:52:47
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 198
+used logic cells: 78
+Translating sdc file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\placer\incremental_pl.sdc...
+Translated sdc file is F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc
+Packer succeeded
+
+Packer run-time: 0 (sec)
+packer succeed.
+
+
+"F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbrouter.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\netlist\oadb-incremental" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --outdir "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\router" --sdf_file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbrouter.exe F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\netlist\oadb-incremental F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc --outdir F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\router --sdf_file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:02:50
+
+I1203: Reading Design incremental
+Read design time: 0
+I1202: Reading Architecture of device iCE40HX1K
+Read device time: 2
+I1209: Started routing
+I1223: Total Nets : 103 
+I1212: Iteration  1 :    41 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 0
+I1206: Completed routing
+I1204: Writing Design incremental
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 2 seconds
+router succeed.
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\netlister.exe" --verilog "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.v" --vhdl "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/sbt/outputs/simulation_netlist\incremental_sbt.vhd" --lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --view rt --device "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --splitio  --in-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\packer\incremental_pk.sdc" --out-sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:30:26
+
+Generating Verilog & VHDL netlist files ...
+Writing F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.v
+Writing F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt/sbt/outputs/simulation_netlist\incremental_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 1 (sec)
+netlist succeed.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --lib-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib" --sdc-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc" --sdf-file "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf" --report-file "F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\timer\incremental_timing.rpt" --device-file "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --timing-summary
+starting timerrunning timerExecuting : F:\Installs\Iscc\Lattice\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental --lib-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ice40HX1K.lib --sdc-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\netlister\incremental_sbt.sdc --sdf-file F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\simulation_netlist\incremental_sbt.sdf --report-file F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\sbt\outputs\timer\incremental_timing.rpt --device-file F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:01:05
+
+Timer run-time: 1 seconds
+timer succeed.
+timer succeeded.
+
+
+"F:/Installs/Iscc/Lattice/sbt_backend/bin/win32/opt\bitmap.exe" "F:\Installs\Iscc\Lattice\sbt_backend\devices\ICE40P01.dev" --design "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\netlist\oadb-incremental" --device_name iCE40HX1K --package TQ144 --outdir "F:/Proyectos/IceZum_Alhambra/Proyectos/IncrementalLeds/PingPong/PingPong_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 17:29:39
+
+Bit Stream File Size: 257720 (251K 696 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 0 (sec)
+bitmap succeed.
+Unrecognizable name incremental
+18:20:02

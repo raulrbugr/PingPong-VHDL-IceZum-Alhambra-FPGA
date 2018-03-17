@@ -1,0 +1,8 @@
+F:\Installs\Iscc\Lattice\synpbase\bin64\c_hdl.exe  -osyn  F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_comp.srs  -hdllog  F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synlog\PingPong_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver  -encrypt  -pro  -dmgen  F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd -lib work F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\UC_incremental.vhd 
+rc:0 success:1 runtime:1
+file:F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synwork\PingPong_comp.srs|io:o|time:1521306936|size:3903|exec:0
+file:F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\PingPong_Implmnt\synlog\PingPong_compiler.srr|io:o|time:1521306936|size:4098|exec:0
+file:F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\incremental.vhd|io:i|time:1521305527|size:2280|exec:0
+file:F:\Proyectos\IceZum_Alhambra\Proyectos\IncrementalLeds\PingPong\UC_incremental.vhd|io:i|time:1521305441|size:1342|exec:0
+file:F:\Installs\Iscc\Lattice\synpbase\bin\c_hdl.exe|io:i|time:1521062537|size:1338368|exec:1
+file:F:\Installs\Iscc\Lattice\synpbase\bin64\c_hdl.exe|io:i|time:1521062538|size:1754112|exec:1
